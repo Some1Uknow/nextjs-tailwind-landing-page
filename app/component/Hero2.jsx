@@ -13,10 +13,12 @@ function Hero2() {
         </div>
         <div className="flex flex-auto gap-5 justify-between font-medium capitalize max-md:flex-wrap max-md:max-w-full">
           <div className="flex gap-5 justify-center px-5 my-auto text-xl leading-7 text-black">
-            <div className="font-bold text-rose-500">home</div>
-            <div>about us</div>
-            <div>pricing</div>
-            <div>features</div>
+            <button className="font-bold text-rose-500 hover:underline cursor-pointer">
+              home
+            </button>
+            <button className="hover:underline cursor-pointer">about us</button>
+            <button className="hover:underline cursor-pointer">pricing</button>
+            <button className="hover:underline cursor-pointer">features</button>
           </div>
           <div className="justify-center px-12 py-6 text-lg leading-7 text-white whitespace-nowrap bg-black rounded max-md:px-5">
             download

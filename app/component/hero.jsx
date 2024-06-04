@@ -10,7 +10,7 @@ export default function Hero() {
           </div>
           <main className="mt-10 lg:mt-20">
             <div className="text-center lg:text-left">
-              <h1 className="text-4xl lg:text-6xl font-extrabold text-gray-900">
+              <h1 className="text-4xl lg:text-5xl font-extrabold text-gray-900">
                 <span className="block mb-2">Make The Best</span>
                 <span className="block">
                   Financial Decisions
@@ -24,13 +24,13 @@ export default function Hero() {
               <div className="mt-8 flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <a
                   href="#"
-                  className="w-full sm:w-auto px-6 py-3 text-base font-medium rounded-md text-white bg-black hover:bg-gray-800 text-center"
+                  className="w-full  sm:w-auto px-6 py-3 text-base font-medium rounded-md text-white bg-black hover:bg-gray-800 text-center"
                 >
                   Get started
                 </a>
                 <a
                   href="#"
-                  className="w-full sm:w-auto px-6 py-3 text-base font-medium rounded-md text-black bg-indigo-100 hover:bg-indigo-200 text-center"
+                  className="w-full  sm:w-auto px-6 py-3 text-base font-medium rounded-md text-black bg-indigo-100 hover:bg-indigo-200 text-center"
                 >
                   Watch Video
                 </a>
