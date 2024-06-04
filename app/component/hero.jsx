@@ -12,9 +12,7 @@ export default function Hero() {
             <div className="text-center lg:text-left">
               <h1 className="text-4xl lg:text-5xl font-extrabold text-gray-900">
                 <span className="block mb-2">Make The Best</span>
-                <span className="block">
-                  Financial Decisions
-                </span>
+                <span className="block">Financial Decisions</span>
               </h1>
               <p className="mt-4 text-lg text-gray-500">
                 Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque
@@ -64,7 +62,11 @@ function MobileMenu() {
   return (
     <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
       <div className="px-5 pt-4 flex items-center justify-between">
-        <img alt="iphones" className="h-8 w-auto" src="/iphone-1.png" />
+        <img
+          alt="iphones"
+          className="h-8 w-auto"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/14479c4c45de02b03703187c82bb3fca68215d492c9d007134f6f70f78498ead?"
+        />
         <button className="p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
           <span className="sr-only">Close main menu</span>
           <XIcon className="h-6 w-6" />
