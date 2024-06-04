@@ -18,7 +18,7 @@ function MyComponent() {
   return (
     <div>
       <section className="flex gap-5 max-md:flex-col max-md:gap-0">
-      <div class="w-full lg:w-1/2"><img loading="lazy" src="/iphone-13-pro-front.png" alt="iPhone 13 Pro" class="w-full h-auto max-w-md mx-auto"/></div>
+      <div className="w-full lg:w-1/2"><img loading="lazy" src="/iphone-13-pro-front.png" alt="iPhone 13 Pro" className="w-full h-auto max-w-md mx-auto"/></div>
         <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
           <CustomizableFeature
             imgSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/25704caef77206d03beb43dd5f29e6e1c8476b6abd788ecd662608917b9e60aa?apiKey=b9d89bf485c5474387cfed94f8e3a1f2&"

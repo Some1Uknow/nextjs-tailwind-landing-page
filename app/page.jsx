@@ -4,7 +4,8 @@ import WhyChoose from "./component/WhyChoose";
 import Hero from "./component/hero";
 import Hero2 from "./component/hero2";
 import WhyChooseUsTwo from "./component/WhyChooseUsTwo";
-import FAQ from "./component/FAQ";
+import Footer from "./component/Footer";
+
 function page() {
   return (
     <div className="px-10 py-3">
@@ -14,7 +15,7 @@ function page() {
       <WhyChoose />
       <WhyChooseUsTwo />
       <Testimonial />
-      <FAQ />
+      <Footer />
     </div>
   );
 }

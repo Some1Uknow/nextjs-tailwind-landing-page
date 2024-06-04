@@ -42,12 +42,12 @@ export default function MyComponent() {
           </header>
         </article>
 
-        <div class="w-full lg:w-1/3">
+        <div className="w-full lg:w-1/3">
           <img
             loading="lazy"
             src="/iphone-13-pro-front-1.png"
             alt="iPhone 13 Pro"
-            class="w-full h-auto max-w-md mx-auto"
+            className="w-full h-auto max-w-md mx-auto"
           />
         </div>
       </section>
